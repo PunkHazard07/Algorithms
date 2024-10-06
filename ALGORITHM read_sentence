@@ -1,0 +1,45 @@
+//algorithm to read sentence
+//create a container to hold the sentence
+//create a container to hold character count
+//read sentence into your sentnce container
+//read each character and add 1 to your character count container
+//print character count
+
+//count the number of words
+//create a container to hold sentence 
+//create a container to hold word count
+//read through your sentence container
+//read sentence character by character when single space is met add one to word-count
+
+//vowel
+//create a container to hold sentence
+//create a 
+
+
+
+ALGORITHM character_Count
+VAR
+    INPUT := sentence
+    OUTPUT:= characterCount
+BEGIN
+    SET sentence := prompt("enter your sentence");
+    SET characterCount := 0 
+
+    For each character in sentence
+    INCREMENT for characterCount
+    OUTPUT result
+    PRINT
+END
+
+ALGORITHM nb_of_words
+VAR
+    Text: STRING;
+    wordCount: 0
+BEGIN
+    READ text 
+    READ for each character(" ");
+    INCREMENT for wordCount;
+    OUTPUT result;
+    PRINT;
+    
+END
